@@ -1,0 +1,26 @@
+# Compiled Go binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Test results
+*.test
+*.out
+
+# Local development environment variables
+.env
+.env.local
+
+# Dependencies
+/vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build output directory (if you create one)
+/build/
